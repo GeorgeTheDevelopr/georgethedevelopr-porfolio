@@ -32,6 +32,16 @@ top: 0;
 left: 0;
 }
 
+#github_a, #linkedin_a {
+  display: flex;
+  flex-direction: column;
+  color: #373733;
+}
+
+.github:hover, .linkedin:hover {
+  color: white;
+}
+
 @media screen and (max-width: 374px) {
   /* Header & About */
   p {

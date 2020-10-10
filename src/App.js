@@ -1,7 +1,6 @@
 import React from 'react';
 import { Switch, Route, withRouter } from 'react-router-dom';
 import { TransitionGroup, CSSTransition } from 'react-transition-group';
-import Welcome from './components/Welcome/Welcome';
 import About from './components/About/About';
 import Projects from './components/Projects/Projects';
 import Contact from './components/Contact/Contact'
@@ -18,8 +17,8 @@ function App({location}) {
           >
             <section className='route-section'>
               <Switch location={location}>
-                <Route exact path='/' component={Welcome} />
-                <Route path='/about' component={About} />
+                <Route exact path='/' component={About} />
+                <Route exact path='/about' component={About} />
                 <Route path='/projects' component={Projects} />
                 <Route path='/contact' component={Contact} />
               </Switch>

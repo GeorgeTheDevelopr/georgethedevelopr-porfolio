@@ -21,12 +21,12 @@ export default function Contact() {
       <div className='social_container'>
         <div className='github'>
           <i className="fab fa-github"></i>
-          <p className='github_p'>GitHub</p>
+          <a href='http://www.github.com/georgethedevelopr' target="_blank" rel='noopener noreferrer' id='github_a'>GitHub</a>
         </div>
 
         <div className='linkedin'>
           <i class="fab fa-linkedin"></i>
-          <p className='linkedin_p'>LinkedIn</p>
+          <a href='https://www.linkedin.com/in/georgebrownsumthn/' target="_blank" rel='noopener noreferrer' id='linkedin_a'>LinkedIn</a>
         </div>
       </div>
     </section>
