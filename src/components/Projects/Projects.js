@@ -12,8 +12,8 @@ export default class Projects extends React.Component{
         <section className='projects'>
           <div className='project project_1'>
             <h3 className='project_title'>Music Quiz App</h3>
-            <img src={musicapp} class="p1_img" alt="Quiz App Screenshot"></img>
-            <p className='project_desc'>Simple Single Page Web app that generates 5 music related questions, based on chosen difficulty (easy, medium, hard). For those who wants to challenge their music knowledge across all genres.</p>
+            <img src={musicapp} className="p1_img" alt="Quiz App Screenshot"></img>
+            <p className='project_desc'>Simple single page web app that generates five music related questions, based on chosen difficulty (easy, medium or hard). Inteded for those who wants to challenge their music knowledge across all genres.</p>
             <p className='tech_stack'>Stack: HTML5, CSS, JavaScript and JQuery.</p>
             <div className='projectLinks_container'>
               <p><a href="https://github.com/thinkful-ei-panda/Quiz-App-George-Rebecca" className="projectLinks" target="_blank" rel='noopener noreferrer'>Repo</a></p>
@@ -23,7 +23,7 @@ export default class Projects extends React.Component{
 
           <div className='project project_2'>
             <h3 className='project_title'>TransActionary</h3>
-            <img src={transactionary} class="p2_img" alt="TransActionary Screenshot"></img>
+            <img src={transactionary} className="p2_img" alt="TransActionary Screenshot"></img>
             <p className='project_desc'>Full Stack Web Application that allows users to create "transaction lists". This app takes a list of items (transaction) and assign them to vendor (online or in person)</p>
             <p className='tech_stack'>Stack: HTML5, CSS, JavaScript, PostgreSQL, Express.js, React.js, Node.js.</p>
             <div className='projectLinks_container'>
@@ -34,7 +34,7 @@ export default class Projects extends React.Component{
 
           <div className='project project_3'>
           <h3 className='project_title'><pre>BuddyUp       </pre></h3>
-            <img src={buddyup} class="p2_img" alt="TransActionary Screenshot"></img>
+            <img src={buddyup} className="p2_img" alt="TransActionary Screenshot"></img>
             <p className='project_desc'>Full Stack Web Application that allows you to organize, join and create activities in your area.</p>
             <p className='tech_stack'>Stack: HTML5, CSS, JavaScript, PostgreSQL, Express.js, React.js, Node.js.</p>
             <div className='projectLinks_container'>

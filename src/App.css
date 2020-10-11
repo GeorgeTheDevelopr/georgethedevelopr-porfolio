@@ -1,3 +1,11 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background-color: #edcb96;
+}
+
 .App{
   margin-top: -20px;
   margin-bottom: -15px;
@@ -32,13 +40,18 @@ top: 0;
 left: 0;
 }
 
-#github_a, #linkedin_a {
+.p-break {
+  padding: .6rem;
+  display: block;
+}
+
+#github_a, #email_a, #linkedin_a {
   display: flex;
   flex-direction: column;
   color: #373733;
 }
 
-.github:hover, .linkedin:hover {
+.github:hover, .email:hover, .linkedin:hover {
   color: white;
 }
 
@@ -47,8 +60,6 @@ left: 0;
   p {
     font-family: Montserrat;
   }
-
-  
 
   .header-container {
     background-color: #212922;
@@ -113,21 +124,28 @@ left: 0;
     letter-spacing: -1px;
   }
 
-  .about-me {
-    height: 64vh;
-  }
-
   .about-header {
     padding-top: 30px
   }
   
-  .about-me, .projects-container, .contact {
-    background-color: #EDCB96;
-    height: 64vh;
+  .info {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  }  
+  
+  .about-paragraph {
+    padding: 20px 2rem;
+    text-align: start;
+    font-weight: bold;
+    font-size: 14px;
+    background-color: #edcb96;
+    color: #3f3a32;
   }
 
-  .about-paragraph {
-    padding: 20px;
+  .about-me, .projects-container, .contact {
+    background-color: #EDCB96;
+    height: auto;
   }
 
   /* Projects */
@@ -282,9 +300,20 @@ left: 0;
     letter-spacing: -1px;
   }
 
-  .about-me {
-    height: 64vh;
+  .info {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
   }
+
+  .about-paragraph {
+    padding: 20px 2rem;
+    text-align: start;
+    font-weight: bold;
+    font-size: 14px;
+    background-color: #edcb96;
+    color: #3f3a32;
+  }  
 
   .about-header {
     padding-top: 30px
@@ -292,11 +321,7 @@ left: 0;
   
   .about-me, .projects-container, .contact {
     background-color: #EDCB96;
-    height: 64vh;
-  }
-
-  .about-paragraph {
-    padding: 20px;
+    height: auto;
   }
 
   /* Projects */
@@ -338,6 +363,8 @@ left: 0;
 
   .project_desc, .tech_stack {
     padding: 20px;
+    width: 16rem;
+    text-align: center;
   }
 
   .tech_stack {
@@ -385,8 +412,6 @@ left: 0;
   p {
     font-family: Montserrat;
   }
-
-  
 
   .header-container {
     background-color: #212922;
@@ -451,9 +476,20 @@ left: 0;
     letter-spacing: -1px;
   }
 
-  .about-me {
-    height: 64vh;
+  .info {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
   }
+
+  .about-paragraph {
+    padding: 20px 2rem;
+    text-align: center;
+    font-weight: bold;
+    font-size: 14px;
+    background-color: #edcb96;
+    color: #3f3a32;
+  }  
 
   .about-header {
     padding-top: 30px
@@ -461,11 +497,7 @@ left: 0;
   
   .about-me, .projects-container, .contact {
     background-color: #EDCB96;
-    height: 64vh;
-  }
-
-  .about-paragraph {
-    padding: 20px;
+    height: auto;
   }
 
   /* Projects */
@@ -507,6 +539,184 @@ left: 0;
 
   .project_desc, .tech_stack {
     padding: 20px;
+    width: 16rem;
+    text-align: center;
+  }
+
+  .tech_stack {
+    padding: 20px;
+    margin-top: -27px;
+    font-size: 13px;
+    color: #580606;
+  }
+
+  .projectLinks_container {
+    display: flex;
+    flex-direction: row;
+    background-color: #212922;
+    border-radius: 15px;
+  }
+
+  .projectLinks {
+    margin: 0 25px;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contact_header {
+    padding-top: 30px;
+  }
+
+  .social_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 70px;
+    color: #1d1912;
+  }
+
+  .email, .linkedin, .github {
+    text-align: center
+  }
+}
+
+@media screen and (min-width: 754px) {
+  p {
+    font-family: Montserrat;
+  }
+
+  .header-container {
+    background-color: #212922;
+    width: 100vw;
+    height: 36vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  h1, h2 {
+    font-family: MuseoModerno;
+    text-align: center
+  }
+
+  h3 {
+    font-family: Sniglet;
+    color: #EDCB96
+  }
+
+  .nav-list {
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+  }
+
+  .nav-list {
+    text-decoration: none;
+  }
+
+  .list-item {
+    list-style-type: none;
+    margin-right: 20px;
+    font-family: MuseoModerno;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  a:link {
+    color: #AEF6C7
+  }
+
+  a:visited {
+    color: #AEF6C7
+  }
+
+  a:hover {
+    color: white
+
+  }
+
+  a:active {
+    color: #5B8266;
+  }
+
+  .header-header1 {
+    color: #AEF6C7;
+    font-size: 30px;
+    letter-spacing: -1px;
+  }
+
+  .info {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .about-paragraph {
+    padding: 20px 5rem;
+    text-align: center;
+    font-weight: bold;
+    font-size: 14px;
+    background-color: #edcb96;
+    color: #3f3a32;
+  }  
+
+  .about-header {
+    padding-top: 30px
+  }
+  
+  .about-me, .projects-container, .contact {
+    background-color: #EDCB96;
+    height: auto;
+  }
+
+  /* Projects */
+  .project_title, .project_desc {
+    color: #212922;
+  }
+
+  .project_title {
+    padding-right: 0;
+  }
+  
+  .project {
+    background-color: #edcb96;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 70px;
+  }
+
+  .project_header {
+    padding-top: 30px;
+    padding-bottom: 21px;
+  }
+
+  .p1_img {
+    height: auto;
+    width: 16rem;
+    text-align: center;
+    border-radius: 10px;
+  }
+
+  .p2_img {
+    height: auto;
+    width: 16rem;
+    text-align: center;
+    border-radius: 10px;
+  }
+
+  .project_desc, .tech_stack {
+    padding: 20px;
+    width: 16rem;
+    text-align: center;
   }
 
   .tech_stack {
@@ -554,8 +764,6 @@ left: 0;
   p {
     font-family: Montserrat;
   }
-
-  
 
   .header-container {
     background-color: #212922;
@@ -615,15 +823,27 @@ left: 0;
     color: #5B8266;
   }
 
+  .info {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  }
+
   .header-header1 {
     color: #AEF6C7;
     font-size: 30px;
     letter-spacing: -1px;
   }
 
-  .about-me {
-    height: 64vh;
-  }
+  .about-paragraph {
+    padding: 20px 20rem;
+    text-align: center;
+    font-weight: bold;
+    font-size: 14px;
+    background-color: #edcb96;
+    color: #3f3a32;
+    
+  }  
 
   .about-header {
     padding-top: 30px
@@ -631,11 +851,7 @@ left: 0;
   
   .about-me, .projects-container, .contact {
     background-color: #EDCB96;
-    height: 64vh;
-  }
-
-  .about-paragraph {
-    padding: 20px 8rem;
+    height: auto;
   }
 
   /* Projects */
@@ -687,14 +903,15 @@ left: 0;
   }
 
   .project_desc, .tech_stack {
-    /* padding: 20px; */
-    width: 11rem;
+    text-align: left;
+    width: 20rem;
   }
 
   .tech_stack {
     padding: 20px;
     margin-top: -27px;
     font-size: 13px;
+    font-weight: bold;
     color: #580606;
   }
 

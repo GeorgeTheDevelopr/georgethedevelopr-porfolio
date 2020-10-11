@@ -6,13 +6,13 @@ export default function Contact() {
     <section className="contact">
       <h1 className='contact_header'>Leave An Email</h1>
       <form action="https://formspree.io/f/meqpebvq" method="POST">
-        <label for="full_name">Name</label>
+        <label htmlFor="full_name">Name</label>
         <input type='text' id='full_name' />
 
-        <label for='email_add'>Email</label>
+        <label htmlFor='email_add'>Email</label>
         <input type='text' name="_replyto" id='email_add' />
 
-        <label for='message'>Message</label>
+        <label htmlFor='message'>Message</label>
         <textarea name='message' id='message' placeholder='Enter Message Here'/>
 
         <input type='submit' value='Submit'/>
@@ -24,8 +24,13 @@ export default function Contact() {
           <a href='http://www.github.com/georgethedevelopr' target="_blank" rel='noopener noreferrer' id='github_a'>GitHub</a>
         </div>
 
+        <div className='email'>
+          <i className="fas fa-at"></i>
+          <a href='mailto:sumthnabtgeorge@gmail.com' id='email_a'>E-Mail</a>
+        </div>
+
         <div className='linkedin'>
-          <i class="fab fa-linkedin"></i>
+          <i className="fab fa-linkedin"></i>
           <a href='https://www.linkedin.com/in/georgebrownsumthn/' target="_blank" rel='noopener noreferrer' id='linkedin_a'>LinkedIn</a>
         </div>
       </div>
