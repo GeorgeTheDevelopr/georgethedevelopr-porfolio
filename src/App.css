@@ -40,15 +40,38 @@ top: 0;
 left: 0;
 }
 
+.about-me, .projects-container, .contact {
+  background-color: #EDCB96;
+  height: auto;
+  margin-top: 1.06rem;
+}
+
 .p-break {
   padding: .6rem;
   display: block;
+}
+
+label {
+  font-family: 'Sniglet';
+}
+
+input#email_add, input#full_name, textarea#message {
+  border: black solid 1px;
+  border-radius: .3rem;
+  margin-bottom: 12px;
+}
+
+input[type="submit"] {
+  border: black solid 1px;
+  border-radius: .3rem;
+  margin-top: 2rem;
 }
 
 #github_a, #email_a, #linkedin_a {
   display: flex;
   flex-direction: column;
   color: #373733;
+  font-weight: bold;
 }
 
 .github:hover, .email:hover, .linkedin:hover {
@@ -141,11 +164,6 @@ left: 0;
     font-size: 14px;
     background-color: #edcb96;
     color: #3f3a32;
-  }
-
-  .about-me, .projects-container, .contact {
-    background-color: #EDCB96;
-    height: auto;
   }
 
   /* Projects */
@@ -319,11 +337,6 @@ left: 0;
     padding-top: 30px
   }
   
-  .about-me, .projects-container, .contact {
-    background-color: #EDCB96;
-    height: auto;
-  }
-
   /* Projects */
   .project_title, .project_desc {
     color: #212922;
@@ -493,11 +506,6 @@ left: 0;
 
   .about-header {
     padding-top: 30px
-  }
-  
-  .about-me, .projects-container, .contact {
-    background-color: #EDCB96;
-    height: auto;
   }
 
   /* Projects */
@@ -669,11 +677,6 @@ left: 0;
 
   .about-header {
     padding-top: 30px
-  }
-  
-  .about-me, .projects-container, .contact {
-    background-color: #EDCB96;
-    height: auto;
   }
 
   /* Projects */
@@ -847,11 +850,6 @@ left: 0;
 
   .about-header {
     padding-top: 30px
-  }
-  
-  .about-me, .projects-container, .contact {
-    background-color: #EDCB96;
-    height: auto;
   }
 
   /* Projects */
