@@ -51,6 +51,10 @@ left: 0;
   display: block;
 }
 
+.project_desc, .tech_stack {
+  font-weight: bold;
+}
+
 label {
   font-family: 'Sniglet';
 }
@@ -922,6 +926,10 @@ input[type="submit"] {
 
   .projectLinks {
     margin: 0 25px;
+  }
+
+  #buddyup-title {
+    padding-right: 5.3125rem;
   }
 
   form {

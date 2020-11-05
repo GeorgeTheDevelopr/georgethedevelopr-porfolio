@@ -33,7 +33,7 @@ export default class Projects extends React.Component{
           </div>
 
           <div className='project project_3'>
-            <h3 className='project_title'>BuddyUp</h3>
+            <h3 className='project_title' id='buddyup-title' >BuddyUp</h3>
             <img src={buddyup} className="p2_img" alt="BuddyUp Screenshot"></img>
             <p className='project_desc'>Full Stack Web Application that allows you to organize, join and create activities in your area. Intended for those who want to safely plan activies where anyone can tag along (with approval). Built as a group project with a team of 4. We all felt this would be a great idea for when the government slowly began reopening the majority of public spaces.</p>
             <p className='tech_stack'>Stack: HTML5, CSS, JavaScript, PostgreSQL, Express.js, React.js, Node.js.</p>
