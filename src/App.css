@@ -91,7 +91,7 @@ input[type="submit"] {
   .header-container {
     background-color: #212922;
     width: 100vw;
-    height: 36vh;
+    height: 18vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -262,7 +262,7 @@ input[type="submit"] {
   .header-container {
     background-color: #212922;
     width: 100vw;
-    height: 36vh;
+    height: 18vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -433,7 +433,7 @@ input[type="submit"] {
   .header-container {
     background-color: #212922;
     width: 100vw;
-    height: 36vh;
+    height: 22vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -604,7 +604,7 @@ input[type="submit"] {
   .header-container {
     background-color: #212922;
     width: 100vw;
-    height: 36vh;
+    height: 22vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -775,7 +775,7 @@ input[type="submit"] {
   .header-container {
     background-color: #212922;
     width: 100vw;
-    height: 36vh;
+    height: 13vh;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
